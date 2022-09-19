@@ -1,0 +1,31 @@
+{
+  "name": "cachemaps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "files": [
+    "build/src"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "cache",
+    "cachemap",
+    "map",
+    "promise",
+    "typescript"
+  ],
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "prepare": "ts-node src/index.ts",
+    "watch": "nodemon src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "gts": "^3.1.1",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "~4.7.0"
+  }
+}
