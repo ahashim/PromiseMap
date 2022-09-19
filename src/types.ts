@@ -3,7 +3,7 @@ export type AccountData = {
 };
 
 // CacheMap generic
-export type CacheMap<T> = Map<string, Promise<T>>;
+export type CacheMap<K, V> = Map<K, Promise<V>>;
 
 type Location = {
   latitude: number;
