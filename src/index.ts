@@ -1,5 +1,5 @@
 /*
- * CacheMaps: A data structure to memoize expensive network calls and mitigate
+ * CacheMap: A data structure to memoize expensive network calls and mitigate
  * the thundering herd.
  */
 import type {AccountData, CacheMap} from './types';
