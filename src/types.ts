@@ -1,9 +1,8 @@
-export type AccountData = {
+export type PromiseMap<K, V> = Map<K, Promise<V>>;
+
+export type UserProfile = {
   [key: string]: Location | number | string;
 };
-
-// CacheMap generic
-export type CacheMap<K, V> = Map<K, Promise<V>>;
 
 type Location = {
   latitude: number;
