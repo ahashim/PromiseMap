@@ -3,6 +3,6 @@
 A data structure to stop the thundering herd 🐎🐎🐎
 
 ```typescript
-type PromiseMap<K, V> = Map<K, Promise<V>>
+type PromiseMap<Key, Value> = Map<Key, Promise<Value>>
 ```
 Cache expensive requests instead of their results.
