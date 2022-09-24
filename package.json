@@ -17,14 +17,13 @@
   ],
   "type": "module",
   "scripts": {
+    "benchmark": "ts-node src/index.ts",
     "compile": "tsc",
-    "prepare": "ts-node src/index.ts",
-    "watch": "nodemon src/index.ts"
+    "prepare": "npm run benchmark"
   },
   "devDependencies": {
     "@types/node": "^14.11.2",
     "gts": "^3.1.1",
-    "nodemon": "^2.0.20",
     "ts-node": "^10.9.1",
     "typescript": "~4.7.0"
   }
