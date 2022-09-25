@@ -1,5 +1,5 @@
 /*
- * CacheMap: A data structure to memoize expensive network calls and mitigate
+ * PromiseMap: A data structure to memoize expensive requests and mitigate
  * the thundering herd.
  */
 import type {UserProfile, PromiseMap} from './types';
