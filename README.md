@@ -6,7 +6,7 @@ A data structure to stop the thundering herd 🐎🐎🐎
 type PromiseMap<Key, Value> = Map<Key, Promise<Value>>
 ```
 Cache expensive requests instead of their results.
-[In depth explanation on the blog post](https://ahmedhashim.app/words/the-promisemap-or-how-i-learned-to-stop-worrying-and-love-the-event-loop/).
+[An in-depth explanation on how it works](https://ahmedhashim.app/words/the-promisemap-or-how-i-learned-to-stop-worrying-and-love-the-event-loop/).
 
 ## Benchmarks
 
